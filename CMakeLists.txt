@@ -17,6 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
   pcl_conversions
   pcl_ros
 )
+find_package(PCL REQUIRED)
 
 add_executable(ds_pub src/ds_pc_pub.cpp)
 add_executable(table src/table_object_pub.cpp)
